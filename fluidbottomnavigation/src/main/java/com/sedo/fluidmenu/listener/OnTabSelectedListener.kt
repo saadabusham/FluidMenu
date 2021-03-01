@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation.listener
+package com.sedo.fluidmenu.listener
 
 
 interface OnTabSelectedListener {

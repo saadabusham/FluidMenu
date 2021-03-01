@@ -8,7 +8,7 @@
         android:layout_height="@dimen/fluidBottomNavigationHeightWithOpacity"
         android:background="@android:color/transparent">
 
-    <com.tenclouds.fluidbottomnavigation.view.TopContainerView
+    <com.sedo.fluidmenu.view.TopContainerView
             android:id="@+id/topContainer"
             android:layout_width="@dimen/fluidBottomNavigationTopContainerWidth"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:layout_marginTop="@dimen/fluidBottomNavigationBackgroundMarginTop"
             />
 
-    <com.tenclouds.fluidbottomnavigation.view.RectangleView
+    <com.sedo.fluidmenu.view.RectangleView
             android:id="@+id/rectangle"
             android:layout_width="@dimen/fluidBottomNavigationCircleSize"
             android:layout_height="@dimen/fluidBottomNavigationCircleSize"
@@ -41,7 +41,7 @@
             android:layout_marginTop="@dimen/fluidBottomNavigationRectangleMarginTop"
             />
 
-    <com.tenclouds.fluidbottomnavigation.view.CircleView
+    <com.sedo.fluidmenu.view.CircleView
             android:id="@+id/circle"
             android:layout_width="@dimen/fluidBottomNavigationCircleSize"
             android:layout_height="@dimen/fluidBottomNavigationCircleSize"
@@ -52,7 +52,7 @@
             android:layout_marginTop="@dimen/fluidBottomNavigationCircleMarginTop"
             />
 
-    <com.tenclouds.fluidbottomnavigation.view.IconView
+    <com.sedo.fluidmenu.view.IconView
             android:id="@+id/icon"
             android:layout_width="@dimen/fluidBottomNavigationIconSize"
             android:layout_height="@dimen/fluidBottomNavigationIconSize"
@@ -63,7 +63,7 @@
             tools:src="@android:drawable/btn_star"
             />
 
-    <com.tenclouds.fluidbottomnavigation.view.TitleView
+    <com.sedo.fluidmenu.view.TitleView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

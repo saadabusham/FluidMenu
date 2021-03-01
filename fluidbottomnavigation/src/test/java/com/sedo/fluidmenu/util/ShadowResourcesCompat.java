@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation.util;
+package com.sedo.fluidmenu.util;
 
 import android.content.Context;
 import android.graphics.Typeface;

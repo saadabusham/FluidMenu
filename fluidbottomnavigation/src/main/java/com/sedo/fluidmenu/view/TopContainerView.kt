@@ -1,15 +1,15 @@
-package com.tenclouds.fluidbottomnavigation.view
+package com.sedo.fluidmenu.view
 
 import android.animation.AnimatorSet
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.ContextCompat
-import com.tenclouds.fluidbottomnavigation.KEY_FRAME_IN_MS
-import com.tenclouds.fluidbottomnavigation.R
-import com.tenclouds.fluidbottomnavigation.extension.interpolators
-import com.tenclouds.fluidbottomnavigation.extension.scaleAnimator
-import com.tenclouds.fluidbottomnavigation.extension.translationYAnimator
+import com.sedo.fluidmenu.KEY_FRAME_IN_MS
+import com.sedo.fluidmenu.R
+import com.sedo.fluidmenu.extension.interpolators
+import com.sedo.fluidmenu.extension.scaleAnimator
+import com.sedo.fluidmenu.extension.translationYAnimator
 
 internal class TopContainerView @JvmOverloads constructor(context: Context,
                                                           attrs: AttributeSet? = null,

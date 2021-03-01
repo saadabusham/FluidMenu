@@ -1,8 +1,8 @@
-package com.tenclouds.fluidbottomnavigation.view
+package com.sedo.fluidmenu.view
 
 import android.animation.Animator
 import android.content.Context
-import com.tenclouds.fluidbottomnavigation.R
+import com.sedo.fluidmenu.R
 
 internal interface AnimatedView {
 

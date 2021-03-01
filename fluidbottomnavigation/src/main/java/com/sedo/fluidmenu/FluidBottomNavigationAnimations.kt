@@ -1,9 +1,9 @@
-package com.tenclouds.fluidbottomnavigation
+package com.sedo.fluidmenu
 
 import android.animation.AnimatorSet
 import android.view.View
 import androidx.interpolator.view.animation.LinearOutSlowInInterpolator
-import com.tenclouds.fluidbottomnavigation.extension.translationYAnimator
+import com.sedo.fluidmenu.extension.translationYAnimator
 import kotlinx.android.synthetic.main.item.view.*
 
 internal fun View.animateSelectItemView() =

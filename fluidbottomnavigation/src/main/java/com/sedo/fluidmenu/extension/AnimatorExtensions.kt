@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation.extension
+package com.sedo.fluidmenu.extension
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator

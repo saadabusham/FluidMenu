@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation.extension
+package com.sedo.fluidmenu.extension
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -10,7 +10,7 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.ImageView
 import androidx.core.widget.ImageViewCompat
-import com.tenclouds.fluidbottomnavigation.FluidBottomNavigation
+import com.sedo.fluidmenu.FluidBottomNavigation
 
 internal fun View.visible() {
     this.visibility = View.VISIBLE

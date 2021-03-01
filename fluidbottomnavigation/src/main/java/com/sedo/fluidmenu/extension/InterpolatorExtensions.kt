@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation.extension
+package com.sedo.fluidmenu.extension
 
 import androidx.core.view.animation.PathInterpolatorCompat
 

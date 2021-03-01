@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation
+package com.sedo.fluidmenu
 
 import android.content.Context
 import android.graphics.Typeface
@@ -17,9 +17,9 @@ import android.widget.LinearLayout
 import androidx.annotation.VisibleForTesting
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
-import com.tenclouds.fluidbottomnavigation.extension.calculateHeight
-import com.tenclouds.fluidbottomnavigation.extension.setTintColor
-import com.tenclouds.fluidbottomnavigation.listener.OnTabSelectedListener
+import com.sedo.fluidmenu.extension.calculateHeight
+import com.sedo.fluidmenu.extension.setTintColor
+import com.sedo.fluidmenu.listener.OnTabSelectedListener
 import kotlinx.android.synthetic.main.item.view.*
 import kotlin.math.abs
 
@@ -178,7 +178,9 @@ class FluidBottomNavigation : FrameLayout {
             if (items.size > 3) {
                 container.setPadding(0, 0, 0, container.paddingBottom)
             }
-
+            with(backgroundContainer){
+                setBackgroundColor(backColor)
+            }
             with(icon) {
                 selectColor = iconSelectedColor
                 deselectColor = iconColor
@@ -188,6 +190,9 @@ class FluidBottomNavigation : FrameLayout {
                     views[position].animateSelectItemView()
                 else
                     setTintColor(deselectColor)
+            }
+            with(topContainer){
+                setTintColor(backColor)
             }
             with(title) {
                 typeface = textFont

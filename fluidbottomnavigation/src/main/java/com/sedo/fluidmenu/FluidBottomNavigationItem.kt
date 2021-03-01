@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation
+package com.sedo.fluidmenu
 
 import android.graphics.drawable.Drawable
 

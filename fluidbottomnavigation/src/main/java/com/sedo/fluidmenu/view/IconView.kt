@@ -1,12 +1,12 @@
-package com.tenclouds.fluidbottomnavigation.view
+package com.sedo.fluidmenu.view
 
 import android.animation.Animator
 import android.animation.AnimatorSet
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
-import com.tenclouds.fluidbottomnavigation.KEY_FRAME_IN_MS
-import com.tenclouds.fluidbottomnavigation.extension.*
+import com.sedo.fluidmenu.KEY_FRAME_IN_MS
+import com.sedo.fluidmenu.extension.*
 
 internal class IconView @JvmOverloads constructor(context: Context,
                                                   attrs: AttributeSet? = null,

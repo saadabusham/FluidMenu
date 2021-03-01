@@ -1,9 +1,9 @@
-package com.tenclouds.fluidbottomnavigationexample
+package com.sedo.fluidmenuexample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.tenclouds.fluidbottomnavigation.FluidBottomNavigationItem
+import com.sedo.fluidmenu.FluidBottomNavigationItem
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

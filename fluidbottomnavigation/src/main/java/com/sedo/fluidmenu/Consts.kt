@@ -1,4 +1,4 @@
-package com.tenclouds.fluidbottomnavigation
+package com.sedo.fluidmenu
 
 internal const val DEFAULT_SELECTED_TAB_POSITION = 0
 

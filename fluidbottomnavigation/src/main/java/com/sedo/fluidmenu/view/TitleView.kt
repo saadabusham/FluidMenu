@@ -1,14 +1,14 @@
-package com.tenclouds.fluidbottomnavigation.view
+package com.sedo.fluidmenu.view
 
 import android.animation.AnimatorSet
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.interpolator.view.animation.LinearOutSlowInInterpolator
-import com.tenclouds.fluidbottomnavigation.KEY_FRAME_IN_MS
-import com.tenclouds.fluidbottomnavigation.extension.alphaAnimator
-import com.tenclouds.fluidbottomnavigation.extension.interpolators
-import com.tenclouds.fluidbottomnavigation.extension.translationYAnimator
+import com.sedo.fluidmenu.KEY_FRAME_IN_MS
+import com.sedo.fluidmenu.extension.alphaAnimator
+import com.sedo.fluidmenu.extension.interpolators
+import com.sedo.fluidmenu.extension.translationYAnimator
 
 internal class TitleView @JvmOverloads constructor(context: Context,
                                                    attrs: AttributeSet? = null,

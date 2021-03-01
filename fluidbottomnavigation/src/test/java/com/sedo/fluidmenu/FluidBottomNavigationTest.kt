@@ -1,9 +1,9 @@
-package com.tenclouds.fluidbottomnavigation
+package com.sedo.fluidmenu
 
 import android.app.Activity
 import com.nhaarman.mockitokotlin2.verify
-import com.tenclouds.fluidbottomnavigation.listener.OnTabSelectedListener
-import com.tenclouds.fluidbottomnavigation.util.ShadowResourcesCompat
+import com.sedo.fluidmenu.listener.OnTabSelectedListener
+import com.sedo.fluidmenu.util.ShadowResourcesCompat
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
